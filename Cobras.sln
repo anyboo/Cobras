@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Verifier", "Verifier\Verifier.vcxproj", "{C56EA126-6A50-4430-8667-D5330AE0C480}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gCatch", "gCatch\gCatch.vcxproj", "{C9458A0E-1451-42A7-91A1-03C894B28E21}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C56EA126-6A50-4430-8667-D5330AE0C480} = {C56EA126-6A50-4430-8667-D5330AE0C480}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C56EA126-6A50-4430-8667-D5330AE0C480}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C56EA126-6A50-4430-8667-D5330AE0C480}.Debug|Win32.Build.0 = Debug|Win32
+		{C56EA126-6A50-4430-8667-D5330AE0C480}.Release|Win32.ActiveCfg = Release|Win32
+		{C56EA126-6A50-4430-8667-D5330AE0C480}.Release|Win32.Build.0 = Release|Win32
+		{C9458A0E-1451-42A7-91A1-03C894B28E21}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C9458A0E-1451-42A7-91A1-03C894B28E21}.Debug|Win32.Build.0 = Debug|Win32
+		{C9458A0E-1451-42A7-91A1-03C894B28E21}.Release|Win32.ActiveCfg = Release|Win32
+		{C9458A0E-1451-42A7-91A1-03C894B28E21}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
