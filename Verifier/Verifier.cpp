@@ -7,7 +7,6 @@
 #include <tchar.h>
 #include "Dongle.h"
 #include "DongleMgr.h"
-#include <catch.hpp>
 #include <iostream>
 
 bool IsPresent()
