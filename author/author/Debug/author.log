@@ -1,0 +1,4 @@
+﻿  author.cpp
+e:\zhanghq\myvcproj\author\author\author.h(23): warning C4251: “CrypDll::m_strApply”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CrypDll”的客户端使用
+e:\zhanghq\myvcproj\author\author\author.h(24): warning C4251: “CrypDll::m_strMacAddr”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CrypDll”的客户端使用
+  author.vcxproj -> E:\zhanghq\MyVCProj\author\Debug\author.dll
