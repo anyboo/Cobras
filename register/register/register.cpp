@@ -171,7 +171,7 @@ string Register::getMac()
 			case MIB_IF_TYPE_ETHERNET:
 				//20160622ÐÞÕý£º¹ýÂËBluetoothÍø¿¨
 				ErrorETHERNET = false;
-				if (!strstr(pIpAdapterInfo->Description, "PCI") || strstr(pIpAdapterInfo->Description, "Bluetooth"))
+				if (!strstr(pIpAdapterInfo->Description, "PCI"))
 				{
 					ErrorETHERNET = true;
 					break;
